@@ -1,0 +1,11 @@
+[package]
+name = "daggers_and_decoys"
+type = "bin"
+authors = [""]
+compiler_version = "0.19.2"
+version = "1.0.0"
+
+[dependencies]
+
+[tool.Nodeguardians]
+part_1 = "Noir Circuit"
