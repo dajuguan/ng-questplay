@@ -157,7 +157,6 @@ function testSpell(subsuiteType, dataPath) {
             const invalidNullifier = ethers.utils.randomBytes(32);
             const tx = spell.connect(signers[8])
                 .pullDagger(invalidNullifier, validProof);
-    
             await expect(tx).to.be.revertedWith("INVALID_PROOF");
         });
     });
